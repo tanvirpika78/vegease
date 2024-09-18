@@ -1,0 +1,461 @@
+﻿body {
+    padding: 10px;
+    font-family: Calibri;
+    font-size: 16px;
+    color: #000000;
+   
+}
+
+h1 {
+    padding: 5px 0 5px 0;
+    margin: 0px;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+h2 {
+    padding: 5px 0 5px 0;
+    margin: 0px;
+    font-size: 18px;
+    color: #4a4947;
+    background-color: #FFFFFF;
+}
+
+h3 {
+    font-size: 60px;
+    color: #465a65;
+    text-align: center;
+    padding-right: 5rem;
+    text-shadow: 3px 4px 8px #898989;
+}
+
+h4 {
+    padding: 0 0 10px 0;
+    margin: 0px;
+    font-size: 14px;
+    color: #7ea743;
+}
+
+
+
+.container {
+    width: auto;
+    height: auto;
+    margin: auto;
+    background-color: #FFFFFF;
+}
+
+.divbody {
+    width: 100%;
+    
+}
+
+.header {
+    width: 100%;
+    height: 150px;
+    background-color: #FFFFFF;
+}
+
+.logo {
+    width: 200px;
+    float: left;
+}
+
+.logintxtU {
+    height: 20px;
+}
+
+.cartpanel {
+    
+    font-size: 25px;
+}
+
+    .cartpanel a {
+        vertical-align: top;
+        
+        font-weight: 300;
+        text-decoration: none;
+    }
+
+        .cartpanel a:hover {
+            color: #851010;
+        }
+
+input[type=text] {
+}
+
+.button {
+    border-color: white;
+    color: #ffffff;
+    background-color: #07710f;
+    cursor: pointer;
+    width: 90%;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: -1px 1px 2px 0px black;
+}
+
+    .button:hover {
+        background-color: white;
+        color: #07710f;
+        border-color: #07710f;
+    }
+img.vegease-image {
+    width: 35%;
+}
+
+.signin {
+    border: none;
+    border-radius: 10px;
+    color: white;
+    height: 38px;
+    width: 66px;
+    background-color: #135e18;
+    margin-right: -1px;
+    cursor: pointer;
+}
+
+    .signin:hover {
+        background-color: #a71919;
+    }
+
+.textLogin {
+    width: 130px;
+}
+
+.about {
+    /* Add any styles specific to the section if needed */
+}
+
+.row {
+    display: flex; /* Use flexbox to align items */
+    align-items: center; /* Vertically center items */
+    flex-direction:row;
+}
+
+.sideLogin {
+    
+    /* Adjust width as needed, or use max-width to limit width */
+}
+
+    .sideLogin img {
+        max-width: 100%; /* Ensure image doesn't exceed its container */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+.content {
+    flex: 1; /* Take up all available space in the flex container */
+    padding: 0 20px; /* Optional: Add padding around content */
+}
+
+    .content p {
+        font-size: 50px;
+        line-height: 1.6;
+        text-align: center;
+        padding-right:5rem;
+    }
+
+.sideLogin {
+  
+   
+}
+
+    .sideLogin a {
+        font-size: 16px;
+        text-decoration: none;
+        color: black;
+    }
+
+        .sideLogin a:hover {
+            color: #851010;
+        }
+
+.contact_information {
+    width: 300px;
+    background: url('/Images/left_content_bg.gif') repeat-x top;
+    float: left;
+}
+
+.lblresponse {
+    font-size: 16px !important;
+    color: #851010;
+}
+
+.cancel {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+    .cancel:hover {
+        color: #851010;
+    }
+
+.icon {
+    width: 30px;
+    height: 25px;
+}
+
+.call {
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.footer .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(2rem, 1fr));
+    gap: 1.5rem;
+    align-items: flex-start;
+    padding: 3rem;
+}
+
+    .footer .box-container .box {
+        text-align: center;
+        padding: 3rem;
+        border: solid black;
+        height: 300px;
+    }
+
+        .footer .box-container .box img {
+            height: 10rem;
+            margin-bottom: 1rem;
+        }
+.centered-text {
+    text-align: center;
+    font-size:40px;
+}
+
+        .footer .box-container .box h3 {
+            margin:  5px;
+            font-size: 2rem;
+            color: black;
+        }
+
+        .footer .box-container .box a,
+        .footer .box-container .box p {
+            line-height: 2;
+            font-size: 1.5rem;
+            color: black;
+            display: block;
+        }
+
+.footer .credit {
+    background-color: black;
+    text-align: center;
+    padding: 3rem 2rem;
+    font-size: 2rem;
+    color: white;
+    /* padding-bottom: 10rem; */
+}
+
+    .footer .credit span {
+        color:yellow;
+    }
+.welcome {
+    background-color: #07710f;
+    color: #07710f;
+    
+}
+input#ContentPlaceHolder1_imagebutton1 {
+    width: 200%;
+}
+
+.bodyImages {
+    float: right;
+    width: 598px;
+}
+
+.orderDetails a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+    .orderDetails a:hover {
+        color: #108519;
+    }
+
+.textBox {
+    width: 749px;
+    height: 25px;
+}
+
+.searchbutton {
+    border: none;
+    color: white;
+    height: 31px;
+    width: 100px;
+    margin-left: -3px;
+    background-color: #108519;
+    cursor: pointer;
+}
+/*----------------------Footer---------------------------------*/
+#footer {
+    clear: both;
+    width: auto;
+    height: 60px;
+    color: white;
+    background-color: #07710f;
+}
+
+.copyright {
+    float: left;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.footer_links {
+    float: right;
+    padding-right: 30px;
+    padding-top: 8px;
+}
+
+    .footer_links a {
+        text-decoration: none;
+        color: white;
+        padding-left: 35px;
+        font-size:35px;
+    }
+
+        .footer_links a:hover {
+            text-decoration: none;
+            color: yellow;
+        }
+
+fieldset {
+    border: 2px solid #808080;
+    border-radius: 4px 4px;
+    padding: 10px 10px;
+    margin:  10px;
+}
+
+    fieldset .sub {
+        width: 383px;
+    }
+
+
+
+.fieldsetmain {
+    border: 2px solid #808080;
+    border-radius: 4px 4px;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    min-height: 40rem;
+}
+
+.fieldsetmainadmin {
+    border: 2px solid #808080;
+    border-radius: 4px 4px;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    min-height: 450px;
+    overflow: auto;
+}
+/*---------ADMIN STYLE-------------*/
+.aminHead {
+    background-color: #135e18;
+    height: 25px;
+    color: white;
+    padding: 1rem;
+    font-family: Calibri;
+}
+
+.adminContainer {
+    width: 1100px;
+    height: 700px;
+    margin: 5px auto;
+    min-height: 650px;
+    border: 3px double #4a4947;
+    background-color: #FFFFFF;
+}
+
+.adminBody {
+    width: 100%;
+    margin: 0px;
+}
+
+.lText {
+    font-size: 30px;
+    float: left;
+    margin-left: 29rem
+}
+
+.info {
+    float: right;
+    display: block;
+    margin-top: 3px;
+    margin-right: 2px;
+}
+
+    .info a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bolder;
+        text-shadow: 3px 1px 11px black;
+    }
+
+        .info a:hover {
+            color: yellow;
+            text-decoration: none;
+        }
+
+.adminMenu {
+    width: 196px;
+    background-color: #e9e9e9;
+    margin-top: 9px;
+    margin-left: 4px;
+    height: 612px;
+    border: 0px #d4d4d4 solid;
+    border-radius: 4px 4px;
+    float: right;
+}
+
+    .adminMenu .menu {
+        color: black;
+    }
+
+        .adminMenu .menu a:hover {
+            color: #851010;
+        }
+
+    .adminMenu .selected {
+        background-color: #d8d8d8;
+        padding: 0px 1px;
+        border: 1px solid black;
+        color: #851010;
+    }
+
+        .adminMenu .selected a:active {
+            background-color: #d8d8d8;
+            padding: 0px 1px;
+            border: 1px solid black;
+            color: #851010;
+        }
+
+.adminContent {
+    float: right;
+    width: 900px;
+    height: 625px;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+    .adminContent fieldset {
+        border: 2px solid #808080;
+        border-radius: 4px 4px;
+        padding: 10px 10px;
+        margin: 0px 4px !important;
+        min-height: 597px;
+    }
+
+    .adminContent .fieldsetsub {
+        border: 2px solid #808080;
+        border-radius: 4px 4px;
+        padding: 10px 10px;
+        margin: 0px 4px !important;
+        min-height: 30px !important;
+        width: 450px;
+    }
+/*---------ADMIN STYLE END-------------*/
